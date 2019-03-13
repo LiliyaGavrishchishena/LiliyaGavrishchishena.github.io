@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  margin: 0 auto;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+.arrowLeft {
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  transform: translate(-25%, 0%) rotate(45deg);
+}
+
+.arrowRight {
+  width: 10px;
+  height: 10px;
+  border-left: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+  transform: translate(25%, 0%) rotate(-135deg);
+}

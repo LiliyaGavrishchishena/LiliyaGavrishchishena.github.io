@@ -1,0 +1,32 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mdbreact": "^4.11.0",
+    "react": "^16.8.4",
+    "react-bootstrap-table2-editor": "^1.2.2",
+    "react-dom": "^16.8.4",
+    "react-editable-table": "^1.12.32",
+    "react-js-pagination": "^3.0.2",
+    "react-modal": "^3.8.1",
+    "react-scripts": "2.1.8",
+    "reactstrap": "^7.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
