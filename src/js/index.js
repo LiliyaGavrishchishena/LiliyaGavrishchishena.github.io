@@ -24,7 +24,7 @@ refresh.addEventListener('click', handleStepOffset);
 
 list.addEventListener('click', function(event) {
   let target = event.target;
-  if (target.classList.contains('.js-info')) {
+  if (target.classList.contains('js-info')) {
     let parent = target.parentNode;
     let hidden = parent.querySelector('.overlay');
     hidden.classList.toggle('active');
@@ -51,13 +51,6 @@ function handleFormSubmit(event) {
     });
   }
 }
-
-// function handleGetInfo(event) {
-//   let btn = event.target;
-//   let parent = btn.parentNode;
-//   const hidden = parent.querySelector('.text');
-//   hidden.classList.toggle('active');
-// }
 
 function getUrlInfo(request) {
   return fetch(
